@@ -1,0 +1,1 @@
+export type MenuItem = { id: string; kitchen_id: string; name: string; description: string | null; price: number; category: string | null; is_veg: boolean; }; export type Kitchen = { id: string; name: string; slug: string; accent_color: string; description: string | null; items: MenuItem[]; };
